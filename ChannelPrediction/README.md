@@ -6,8 +6,9 @@ Mapping Channels in Space and Frequency", submitted for publication at Asilomar 
 1) MATLAB Deep Learning toolbox
 2) Dataset: to generate all the results and more, the dataset should be generated using the [DeepMIMO dataset](http://www.deepmimo.net). The settings are mentioned in the experiemental results section of the paper above and listed down here:
 
+| Parameter | Value |
+| -------- | ------ |
 | Name of scenario | Ind_1_2.4GHz and Ind_1_2.5GHz |
-| ---------------- | ----------------------------- |
 | Number of BSs    |             64                |   
 | Active users     |  Row 1 to 502                 |
 | Number of BS antennas in (x, y, x)  | (1,1,1)    |
