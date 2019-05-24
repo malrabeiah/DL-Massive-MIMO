@@ -16,3 +16,5 @@ Mapping Channels in Space and Frequency", submitted for publication to Asilomar 
 | Number of OFDM sub-carriers | 64                 |
 | OFDM sampling factor | 1                         |
 | OFDM limit | 16                                  |
+# License and Referencing
+This code package is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
