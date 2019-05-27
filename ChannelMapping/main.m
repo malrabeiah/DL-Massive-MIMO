@@ -1,3 +1,10 @@
+%===============================================================%
+% Author: 
+% Muhammad Alrabeiah
+% School of ECEE, ASU
+% Tempe, AZ, USA
+%===============================================================%
+
 clc
 clear
 close all
@@ -23,7 +30,7 @@ for s = 1:size(datasetSizeRatio,2)
     options.valPercentage = 0.2;
     options.corruption = 'FCNMasking';
     options.fixedMask = 1;
-    options.rawDataFile1 = 'RawData_64DistAnt_Indoor2_4GHz_16Sub_1Path_from1to502row.mat';% Path to dataset
+    options.rawDataFile1 = '';% Path to dataset, example: RawData_64DistAnt_Indoor2_4GHz_16Sub_1Path_from1to502row.mat'
     options.expTag = '16Sub_64DistAnt_1Path_Case_Spatial24GHz_FCNModel_Exp3';
     options.trainedNetDir = '~/Documents/MATLAB/MassiveMIMO/Networks/';% path to where to store the trained model
     options.learningRate = 1e-3;
@@ -108,7 +115,6 @@ for s = 1:size(datasetSizeRatio,2)
             predH = reshape(predChMatComp, [prod(options.antDim),options.numOfSub,numOfSamples]);
             targH = reshape(targChMatComp, [prod(options.antDim),options.numOfSub,numOfSamples]);
             for sample = 1:numOfSamples
-                
                 pred = diag( abs(targH(:,:,sample)'*predH(:,:,sample)).^2)./diag( abs(predH(:,:,sample)'*predH(:,:,sample)) );
                 targ = diag( abs(targH(:,:,sample)'*targH(:,:,sample)).^2)./diag( abs(targH(:,:,sample)'*targH(:,:,sample)) );
                 lower = diag( abs(targH(:,:,sample)'*inputH(:,:,sample)).^2)./diag( abs(inputH(:,:,sample)'*inputH(:,:,sample)) );
