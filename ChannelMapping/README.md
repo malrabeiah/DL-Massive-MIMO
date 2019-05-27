@@ -18,7 +18,7 @@ Mapping Channels in Space and Frequency", submitted for publication to Asilomar 
 | OFDM sampling factor | 1                         |
 | OFDM limit | 16                                  |
 
-# Reproduce The Figure:
+# Reproducing The Figure Above:
 1) Generate a dataset for scenario I1_2p4.
 2) Organize the data into a MATLAB structure named "rawData" with the following fields: channel and userLoc. "channel" is a 3D array with dimensions: # of antennas X # of sub-carriers X # of users while "userLoc" is a 2D array with dimensions: 3 X # of users.
 3) Save the data structure into a .mat file.
