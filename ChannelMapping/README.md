@@ -5,7 +5,8 @@ Mapping Channels in Space and Frequency", submitted for publication to Asilomar 
 ![Figure6](https://github.com/malrabeiah/DL-Massive-MIMO/blob/master/ChannelMapping/FDDTDDFigure6V2.png)
 # Requirements
 1) MATLAB Deep Learning toolbox
-2) Two datasets could be generated using the [DeepMIMO dataset](http://www.deepmimo.net). The settings are mentioned in the experiemental-results section of the paper above and are listed down here:
+2) NVIDIA GPU with the corresponding CUDA toolkit (code could be run on a CPU, but it'll be very slow).
+3) Two datasets could be generated using the [DeepMIMO dataset](http://www.deepmimo.net). The settings are mentioned in the experiemental-results section of the paper above and are listed down here:
 
 | Parameter | Value |
 | -------- | ------ |
