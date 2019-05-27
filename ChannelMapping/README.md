@@ -9,7 +9,7 @@ Mapping Channels in Space and Frequency", submitted for publication to Asilomar 
 
 | Parameter | Value |
 | -------- | ------ |
-| Name of scenario | Ind_1_2.4GHz and Ind_1_2.5GHz |
+| Name of scenario | I_1p2.4 and I_1p2.5 |
 | Number of BSs    |             64                |   
 | Active users     |  Row 1 to 502                 |
 | Number of BS antennas in (x, y, x)  | (1,1,1)    |
