@@ -1,8 +1,8 @@
 # Feedfroward Network for Channel Mapping
-The available codes show the effect of increasing the training set size on the performance of the neural network, which is the second figure of our paper titled "Deep Learning for TDD and FDD Massive MIMO:
-Mapping Channels in Space and Frequency", submitted for publication to Asilomar 2019. They also provide the foundation to reproduce the other results and more...
+The available codes show the effect of increasing the training set size on the performance of the neural network, which is the second figure in the results section of our paper "Deep Learning for TDD and FDD Massive MIMO: Mapping Channels in Space and Frequency", submitted for publication to Asilomar 2019. They also provide the foundation to reproduce the other results and more...
 
 ![Figure6](https://github.com/malrabeiah/DL-Massive-MIMO/blob/master/ChannelMapping/FDDTDDFigure6V2.png)
+
 # Requirements
 1) MATLAB Deep Learning toolbox
 2) NVIDIA GPU with the corresponding CUDA toolkit (code could be run on a CPU, but it'll be very slow).
