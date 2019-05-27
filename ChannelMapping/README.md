@@ -5,11 +5,11 @@ Mapping Channels in Space and Frequency", submitted for publication to Asilomar 
 ![Figure6](https://github.com/malrabeiah/DL-Massive-MIMO/blob/master/ChannelMapping/FDDTDDFigure6V2.png)
 # Requirements
 1) MATLAB Deep Learning toolbox
-2) Dataset should be generated using the [DeepMIMO dataset](http://www.deepmimo.net). The settings are mentioned in the experiemental-results section of the paper above and are listed down here:
+2) Two datasets could be generated using the [DeepMIMO dataset](http://www.deepmimo.net). The settings are mentioned in the experiemental-results section of the paper above and are listed down here:
 
 | Parameter | Value |
 | -------- | ------ |
-| Name of scenario | I_1p2.4 and I_1p2.5 |
+| Name of scenario | I1_2p4 and I1_2p5 |
 | Number of BSs    |             64                |   
 | Active users     |  Row 1 to 502                 |
 | Number of BS antennas in (x, y, x)  | (1,1,1)    |
@@ -17,5 +17,14 @@ Mapping Channels in Space and Frequency", submitted for publication to Asilomar 
 | Number of OFDM sub-carriers | 64                 |
 | OFDM sampling factor | 1                         |
 | OFDM limit | 16                                  |
+
+# Reproduce The Figure:
+1) Generate a dataset for scenario I1_2p4.
+2) Organize the data into a MATLAB structure named "rawData" with the following fields: channel and userLoc. "channel" is a 3D array with dimensions: # of antennas X # of sub-carriers X # of users while "userLoc" is a 2D array with dimensions: 3 X # of users.
+3) Save the data structure into a .mat file.
+4) In the file main, set the option: options.rawDataFile1 to point to the .mat file.
+5) Run main.m
+NOTE: you may need to adjust the training hyper-parameters.
+
 # License and Referencing
 This code package is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
