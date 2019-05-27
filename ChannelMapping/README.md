@@ -24,6 +24,7 @@ Mapping Channels in Space and Frequency", submitted for publication to Asilomar 
 3) Save the data structure into a .mat file.
 4) In the file main, set the option: options.rawDataFile1 to point to the .mat file.
 5) Run main.m
+
 NOTE: you may need to adjust the training hyper-parameters.
 
 # License and Referencing
