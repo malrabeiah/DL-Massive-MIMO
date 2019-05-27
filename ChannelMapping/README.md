@@ -10,7 +10,7 @@ The available codes show the effect of increasing the training set size on the p
 
 | Parameter | Value |
 | -------- | ------ |
-| Name of scenario | I1_2p4 and I1_2p5 |
+| Name of scenario | I1_2p4 and I1_2p5             |
 | Number of BSs    |             64                |   
 | Active users     |  Row 1 to 502                 |
 | Number of BS antennas in (x, y, x)  | (1,1,1)    |
@@ -18,6 +18,7 @@ The available codes show the effect of increasing the training set size on the p
 | Number of OFDM sub-carriers | 64                 |
 | OFDM sampling factor | 1                         |
 | OFDM limit | 16                                  |
+| Number of Paths | 1 or 5                         |
 
 # Reproducing The Figure:
 1) Generate a dataset for scenario I1_2p4.
