@@ -29,7 +29,9 @@ The available codes show the effect of increasing the training set size on the p
 NOTE: you may need to adjust the training hyper-parameters.
 
 # Citation
-> @ARTICLE{2019arXiv190503761A,
+If you intend to use the above codes or some of them, please cite the following work:
+```
+@ARTICLE{2019arXiv190503761A,
        author = {{Alrabeiah}, Muhammad and {Alkhateeb}, Ahmed},
         title = "{Deep Learning for TDD and FDD Massive MIMO: Mapping Channels in Space and Frequency}",
       journal = {arXiv e-prints},
@@ -44,6 +46,7 @@ archivePrefix = {arXiv},
        adsurl = {https://ui.adsabs.harvard.edu/abs/2019arXiv190503761A},
       adsnote = {Provided by the SAO/NASA Astrophysics Data System}
 }
+```
 
 
 
