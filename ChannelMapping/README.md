@@ -6,7 +6,7 @@ The available codes show the effect of increasing the training set size on the p
 # Requirements
 1) MATLAB Deep Learning toolbox
 2) NVIDIA GPU with the corresponding CUDA toolkit (code could be run on a CPU, but it'll be very slow).
-3) Two datasets could be generated using the [DeepMIMO dataset](http://www.deepmimo.net). The settings are mentioned in the experiemental-results section of the paper above and are listed down here:
+3) Two datasets could be generated using the [DeepMIMO dataset](https://github.com/DeepMIMO/DeepMIMO-codes). The settings are mentioned in the experiemental-results section of the paper above and are listed down here:
 
 | Parameter | Value |
 | -------- | ------ |
