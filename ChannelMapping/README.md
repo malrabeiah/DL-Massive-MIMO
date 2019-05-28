@@ -30,20 +30,20 @@ NOTE: you may need to adjust the training hyper-parameters.
 
 # Citation
 > @ARTICLE{2019arXiv190503761A,
->       author = {{Alrabeiah}, Muhammad and {Alkhateeb}, Ahmed},
->        title = "{Deep Learning for TDD and FDD Massive MIMO: Mapping Channels in Space and Frequency}",
->      journal = {arXiv e-prints},
->     keywords = {Computer Science - Information Theory, Electrical Engineering and Systems Science - Signal Processing},
->         year = "2019",
->        month = "May",
->          eid = {arXiv:1905.03761},
->        pages = {arXiv:1905.03761},
->archivePrefix = {arXiv},
->       eprint = {1905.03761},
-> primaryClass = {cs.IT},
->       adsurl = {https://ui.adsabs.harvard.edu/abs/2019arXiv190503761A},
->      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
->}
+       author = {{Alrabeiah}, Muhammad and {Alkhateeb}, Ahmed},
+        title = "{Deep Learning for TDD and FDD Massive MIMO: Mapping Channels in Space and Frequency}",
+      journal = {arXiv e-prints},
+     keywords = {Computer Science - Information Theory, Electrical Engineering and Systems Science - Signal Processing},
+         year = "2019",
+        month = "May",
+          eid = {arXiv:1905.03761},
+        pages = {arXiv:1905.03761},
+archivePrefix = {arXiv},
+       eprint = {1905.03761},
+ primaryClass = {cs.IT},
+       adsurl = {https://ui.adsabs.harvard.edu/abs/2019arXiv190503761A},
+      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
 
 
 
