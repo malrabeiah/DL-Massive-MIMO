@@ -10,7 +10,7 @@ The available codes show the effect of increasing the training set size on the p
 | Parameter | Value |
 | -------- | ------ |
 | Name of scenario | I1_2p4 and I1_2p5             |
-| Active BSs    |             64                |   
+| Active BSs    |            1 - 64                |   
 | Active users     |  Row 1 to 502                 |
 | Number of BS antennas in (x, y, x)  | (1,1,1)    |
 | System BW | 0.02 GHz                             |
