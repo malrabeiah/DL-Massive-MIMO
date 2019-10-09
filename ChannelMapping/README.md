@@ -29,7 +29,7 @@ The available codes show the effect of increasing the training set size on the p
 NOTE: you may need to adjust the training hyper-parameters.
 
 # Citation
-If you intend to use the above codes or some of them, please cite the following work:
+If you use the above codes or some of them, please cite the following work:
 ```
 @ARTICLE{2019arXiv190503761A,
        author = {{Alrabeiah}, Muhammad and {Alkhateeb}, Ahmed},
