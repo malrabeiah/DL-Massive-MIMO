@@ -26,8 +26,6 @@ The available codes show the effect of increasing the training set size on the p
 4) In the file main, set the option: options.rawDataFile1 to point to the .mat file.
 5) Run main.m
 
-NOTE: you may need to adjust the training hyper-parameters.
-
 # Citation
 If you use the above codes or some of them, please cite the following work:
 ```
