@@ -17,7 +17,7 @@ function [dataset, options] = dataPrep(rawData, options)
 
 dataset = struct();
 
-fprintf('Normalizing the absolute of the raw data to the range -1 to 1 \n');
+fprintf('Normalizing the absolute of the raw data \n');
 absRawData = abs(rawData);
 dataset.stats.absMaxValue = max( absRawData(:) );
 rawData = rawData/dataset.stats.absMaxValue;
